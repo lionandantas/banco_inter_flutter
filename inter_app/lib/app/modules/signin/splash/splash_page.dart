@@ -16,9 +16,7 @@ class _SplashPageState extends State<SplashPage> {
   @override
   void initState() {
     super.initState();
-    Timer(Duration(seconds: 4), () {
-      Modular.to.pushNamed('/signin');
-    });
+    Timer(Duration(seconds: 4), () => Modular.to.pushNamed('/signin'));
   }
 
   @override
